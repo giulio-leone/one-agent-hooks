@@ -1,0 +1,17 @@
+
+> @onecoach/one-agent-hooks@0.1.0 build /Users/giulioleone/Sviluppo/CoachOne/submodules/one-agent-hooks
+> tsup
+
+CLI Building entry: src/index.ts
+CLI Using tsconfig: tsconfig.json
+CLI tsup v8.5.1
+CLI Using tsup config: /Users/giulioleone/Sviluppo/CoachOne/submodules/one-agent-hooks/tsup.config.ts
+CLI Target: es2022
+CLI Cleaning output folder
+ESM Build start
+ESM dist/index.js     14.80 KB
+ESM dist/index.js.map 32.27 KB
+ESM ⚡️ Build success in 47ms
+DTS Build start
+DTS ⚡️ Build success in 813ms
+DTS dist/index.d.ts 6.11 KB
