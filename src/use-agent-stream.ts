@@ -100,8 +100,8 @@ export function useAgentStream<TOutput, TInput = unknown>(
           throw new Error(`Request failed: ${response.status}`);
         }
 
-        // Extract runId from headers if available
-        const runId = response.headers.get('X-Workflow-Run-Id');
+        // Extract runId from headers if available (lowercase for HTTP/2 compatibility)
+        const runId = response.headers.get('x-workflow-run-id');
         if (runId) {
           setState((prev) => ({ ...prev, runId }));
         }
